@@ -1,0 +1,20 @@
+pm.test("comprobando el puerto 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("El tiempo de respuesta es menor a 3000s",function(){
+   pm.expect(pm.response.responseTime).to.be.below(3000);
+});
+
+   pm.response.to.have.status(200);
+pm.test("Respuesta incluye nombre del registro",function(){
+   pm.expect(pm.response.text()).to.include("name");
+});
+
+pm.test("comprabar si recibe un response_body_json", function () {
+    var jsonData = pm.response.json();
+});
+
+pm.test("comprabar si recibe un response_body_string", function () {
+    pm.response.to.have.body("response_body_string");
+});
