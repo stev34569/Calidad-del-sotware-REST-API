@@ -23,3 +23,7 @@ pm.test("comprabar si recibe un response_body_string", function () {
 Link de la aplicacion web
 
 https://buggy.justtestit.org/
+
+
+Link de prueba
+https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00ng?modelsPage=1
