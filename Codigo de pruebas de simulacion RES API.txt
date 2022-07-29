@@ -18,3 +18,8 @@ pm.test("comprabar si recibe un response_body_json", function () {
 pm.test("comprabar si recibe un response_body_string", function () {
     pm.response.to.have.body("response_body_string");
 });
+
+
+Link de la aplicacion web
+
+https://buggy.justtestit.org/
